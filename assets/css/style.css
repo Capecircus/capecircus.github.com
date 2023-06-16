@@ -1,3 +1,13 @@
 h1 {
     font-size: x-large;
 }
+
+.img-thumbnail {
+    border: 2px solid #333; /* Establece un borde sólido oscuro */
+    border-radius: 4px; /* Añade esquinas redondeadas si deseas */
+  }
+
+  .image-container {
+    overflow: hidden; 
+    height: 30%; 
+  }
