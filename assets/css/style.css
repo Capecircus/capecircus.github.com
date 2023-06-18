@@ -34,3 +34,9 @@ h1 {
 .cargo {
   text-align: left;
 }
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card
