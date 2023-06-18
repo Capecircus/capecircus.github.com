@@ -1,3 +1,8 @@
+
+body{
+  font-family: 'Poppins';
+}
+
 h1 {
     font-size: x-large;
 }
@@ -10,4 +15,13 @@ h1 {
   .image-container {
     overflow: hidden; 
     height: 30%; 
+  }
+
+.trabajo {
+  background-color: black;
+
+  }
+
+  #Mis-trabajos {
+    background-color: black;
   }

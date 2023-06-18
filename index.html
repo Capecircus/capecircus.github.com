@@ -10,11 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top gradient">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="/assets/imgs/logo.png" class="img-fluid w-50" />
@@ -40,38 +43,52 @@
     </nav>
 
     <header id="Hero-Section" class="text-center py-5 mt-5 bg-dark">
-        <div class="container bg-light px-20 justify-content-center bg-secondary">
-            <div class="row justify-content-center align-items-center g-2 bg">
-                <div class="col">
-                    <img class="img-fluid w-50 img-thumbnail thumbnail-darken" src="/assets/imgs/foto-perfil.png" alt=""
-                        srcset="" />
+        <div class="container px-20 justify-content-center ">
+            <div class="col justify-content-center align-items-center g-2 bg">
+                <div class="row justify-content-center">
+                    <img class="img-fluid rounded-circle w-50 img-thumbnail thumbnail-darken"
+                        src="/assets/imgs/foto-perfil.png" alt="" srcset="" />
                 </div>
-                <div class="col">
-                    <h1 class="display-1 fw-bold my-5 text-light bg-dark" style="--bs-bg-opacity: 0.3">
+                <div class="row">
+                    <h1 class="display-1 fw-bold my-5 text-light bg-secondary text-center" style="--bs-bg-opacity: 0.3">
                         Ariel Capetillo
                     </h1>
-                    <p class="my-5 bg-dark text-light" style="--bs-bg-opacity: 0.7">
+                </div>
+                <div class="row">
+                    <p class="my-5 bg-dark text-light align-text-left" style="--bs-bg-opacity: 0.7">
                         Entusiasta Consultor CRM e Ingeniero Industrial con más de 6 años
                         de experiencia en diversas industrias, incluyendo consultoría,
                         finanzas, análisis de datos y logística. Es un profesional
                         integral con una sólida combinación de habilidades técnicas y
-                        habilidades excepcionales de gestión de clientes
+                        habilidades excepcionales de gestión de clientes.
                     </p>
                 </div>
             </div>
         </div>
     </header>
+
+    <section id="Mis-trabajos" class="d-flex ">
+        <div class="btn-group d-flex " role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">Left</button>
+            <button type="button" class="btn btn-primary">Middle</button>
+            <button type="button" class="btn btn-primary">Right</button>
+        </div>
+
+
+    </section>
+
+    <!-- 
     <section id="Mis-trabajos" class="bg-dark">
         <div class="col justify-content-around bg-dark">
-            <div class="row bg-dark">
+            <div class="row bg-dark trabajo">
                 <h2 class="display-4 fw-bold text-center text-light">Mis trabajos</h2>
             </div>
-            <div class="row bg-dark">
+            <div class="row bg-dark trabajo">
                 <div class="card justify-content-center align-items-center">
                     <div class="image-container px-lg-5 d-flex justify-content-center align-items-center bg-dark ">
-                        <img src="/assets/imgs/screenshot-cv.png" class="card-img-top img-thumbnail" alt="..." />
+                        <img src="/assets/imgs/screenshot-cv.png" class="card-img-top img-thumbnail"/>
                     </div>
-                    <div class="card-body text-center h-50">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Un primer CV</h5>
                         <p class="card-text">
                             Mi primer encargo fue tomar mi Curriculum Vitae y usarlo para
@@ -83,7 +100,7 @@
                 </div>
             </div>
 
-            <div class="row bg-dark">
+            <div class="row bg-dark trabajo">
                 <div class="card align-items-center">
                     <div class="image-container px-lg-5 d-flex justify-content-center align-items-center bg-dark">
                         <img src="/assets/imgs/iguana.png" class="card-img-top img-thumbnail" alt="..." />
@@ -98,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row bg-dark trabajo">
                 <div class="card align-items-center">
                     <div class="image-container bg-dark px-lg-5 d-flex justify-content-center align-items-center">
                         <img src="/assets/imgs/proyecto-bootstrap.png" class="card-img-top img-thumbnail" alt="..." />
@@ -115,6 +132,7 @@
         </div>
     </section>
 
+ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
