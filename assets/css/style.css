@@ -17,11 +17,20 @@ h1 {
     height: 30%; 
   }
 
-.trabajo {
-  background-color: black;
+.title {
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
 
-  }
+.title h2 {
+  border: solid black;
+}
 
-  #Mis-trabajos {
-    background-color: black;
-  }
+.pega-item {
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+
+.cargo {
+  text-align: left;
+}
